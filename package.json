@@ -21,7 +21,7 @@
   "devDependencies": {
     "@babel/preset-env": "^7.26.9",
     "@babel/preset-typescript": "^7.26.0",
-    "@eslint/js": "^9.22.0",
+    "@eslint/js": "^9.23.0",
     "@jest/globals": "^29.7.0",
     "@types/jest": "^29.5.14",
     "@types/node": "^20.11.17",
@@ -30,6 +30,7 @@
     "jest": "^29.7.0",
     "prettier": "3.5.3",
     "ts-node": "^10.9.2",
-    "tsx": "^4.7.1"
+    "tsx": "^4.7.1",
+    "typescript-eslint": "^8.28.0"
   }
 }
