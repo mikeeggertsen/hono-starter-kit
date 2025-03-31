@@ -1,5 +1,5 @@
-import { Context } from "hono";
-import { HandlerResponse } from "hono/types";
+import type { Context } from "hono";
+import type { HandlerResponse } from "hono/types";
 
 export class HealthController {
   constructor() {}

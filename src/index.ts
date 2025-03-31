@@ -1,3 +1,3 @@
-import { main } from "core/server";
+import { main } from "./core/server";
 
 main();

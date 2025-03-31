@@ -1,8 +1,8 @@
-import { ErrorHandler } from "@common/handlers/error-handler";
+import { ErrorHandler } from "../common/handlers/error-handler";
 import { Hono } from "hono";
 import { container } from "./di-container";
-import { HealthRoutes } from "modules/health/health.routes";
-import { HealthInjectables } from "modules/health/constants/injectables";
+import { HealthInjectables } from "../modules/health/constants/injectables";
+import type { HealthRoutes } from "../modules/health/health.routes";
 
 const app = new Hono();
 

@@ -1,6 +1,6 @@
 import { Hono } from "hono";
-import { HttpException } from "@common/constants/http-exceptions";
-import { HttpStatus } from "@common/constants/http-status";
+import { HttpException } from "../constants/http-exceptions";
+import { HttpStatus } from "../constants/http-status";
 import { ZodError } from "zod";
 
 export class ErrorHandler {
